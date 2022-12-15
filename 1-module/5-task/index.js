@@ -1,5 +1,4 @@
 function truncate(str, maxlength) {
-<<<<<<< HEAD
     return str.length > maxlength ? str.slice(0, maxlength - 1) + '…' : str;
   let strLength = str.length;
   let exceedsMaxlength = strLength > maxlength;
